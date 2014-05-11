@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A24B74191ECA710056FBA0 /* MLCPiratesGamePlant.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A24B73191ECA710056FBA0 /* MLCPiratesGamePlant.m */; };
 		07B0BCC1190DD1B000F6F2C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B0BCC0190DD1B000F6F2C9 /* Foundation.framework */; };
 		07B0BCC3190DD1B000F6F2C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B0BCC2190DD1B000F6F2C9 /* CoreGraphics.framework */; };
 		07B0BCC5190DD1B000F6F2C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B0BCC4190DD1B000F6F2C9 /* UIKit.framework */; };
@@ -21,6 +22,11 @@
 		07B0BCE2190DD1B100F6F2C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B0BCC4190DD1B000F6F2C9 /* UIKit.framework */; };
 		07B0BCEA190DD1B100F6F2C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B0BCE8190DD1B100F6F2C9 /* InfoPlist.strings */; };
 		07B0BCEC190DD1B100F6F2C9 /* PiratesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0BCEB190DD1B100F6F2C9 /* PiratesTests.m */; };
+		07B0BCF7190DD1C400F6F2C9 /* MLCPiratesGameTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0BCF6190DD1C400F6F2C9 /* MLCPiratesGameTile.m */; };
+		07B0BCFA190DDB5500F6F2C9 /* MLCPiratesGamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0BCF9190DDB5500F6F2C9 /* MLCPiratesGamePlayer.m */; };
+		07B0BCFD190DDBB600F6F2C9 /* MLCPiratesGameWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0BCFC190DDBB600F6F2C9 /* MLCPiratesGameWeapon.m */; };
+		07B0BD00190DDBC600F6F2C9 /* MLCPiratesGameArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0BCFF190DDBC600F6F2C9 /* MLCPiratesGameArmor.m */; };
+		07B0BD4B190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0BD4A190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07A24B72191ECA710056FBA0 /* MLCPiratesGamePlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCPiratesGamePlant.h; sourceTree = "<group>"; };
+		07A24B73191ECA710056FBA0 /* MLCPiratesGamePlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCPiratesGamePlant.m; sourceTree = "<group>"; };
 		07B0BCBD190DD1B000F6F2C9 /* Pirates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pirates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B0BCC0190DD1B000F6F2C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B0BCC2190DD1B000F6F2C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,16 @@
 		07B0BCE7190DD1B100F6F2C9 /* PiratesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PiratesTests-Info.plist"; sourceTree = "<group>"; };
 		07B0BCE9190DD1B100F6F2C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07B0BCEB190DD1B100F6F2C9 /* PiratesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiratesTests.m; sourceTree = "<group>"; };
+		07B0BCF5190DD1C400F6F2C9 /* MLCPiratesGameTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLCPiratesGameTile.h; path = ../MLCPiratesGameTile.h; sourceTree = "<group>"; };
+		07B0BCF6190DD1C400F6F2C9 /* MLCPiratesGameTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLCPiratesGameTile.m; path = ../MLCPiratesGameTile.m; sourceTree = "<group>"; };
+		07B0BCF8190DDB5500F6F2C9 /* MLCPiratesGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCPiratesGamePlayer.h; sourceTree = "<group>"; };
+		07B0BCF9190DDB5500F6F2C9 /* MLCPiratesGamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCPiratesGamePlayer.m; sourceTree = "<group>"; };
+		07B0BCFB190DDBB600F6F2C9 /* MLCPiratesGameWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCPiratesGameWeapon.h; sourceTree = "<group>"; };
+		07B0BCFC190DDBB600F6F2C9 /* MLCPiratesGameWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCPiratesGameWeapon.m; sourceTree = "<group>"; };
+		07B0BCFE190DDBC600F6F2C9 /* MLCPiratesGameArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCPiratesGameArmor.h; sourceTree = "<group>"; };
+		07B0BCFF190DDBC600F6F2C9 /* MLCPiratesGameArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCPiratesGameArmor.m; sourceTree = "<group>"; };
+		07B0BD49190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCPiratesGameBoardFactory.h; sourceTree = "<group>"; };
+		07B0BD4A190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCPiratesGameBoardFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,18 @@
 				07B0BCD2190DD1B000F6F2C9 /* Main.storyboard */,
 				07B0BCD5190DD1B000F6F2C9 /* MLCPiratesGameViewController.h */,
 				07B0BCD6190DD1B000F6F2C9 /* MLCPiratesGameViewController.m */,
+				07B0BD49190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.h */,
+				07B0BD4A190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.m */,
+				07B0BCF5190DD1C400F6F2C9 /* MLCPiratesGameTile.h */,
+				07B0BCF6190DD1C400F6F2C9 /* MLCPiratesGameTile.m */,
+				07A24B72191ECA710056FBA0 /* MLCPiratesGamePlant.h */,
+				07A24B73191ECA710056FBA0 /* MLCPiratesGamePlant.m */,
+				07B0BCFB190DDBB600F6F2C9 /* MLCPiratesGameWeapon.h */,
+				07B0BCFC190DDBB600F6F2C9 /* MLCPiratesGameWeapon.m */,
+				07B0BCFE190DDBC600F6F2C9 /* MLCPiratesGameArmor.h */,
+				07B0BCFF190DDBC600F6F2C9 /* MLCPiratesGameArmor.m */,
+				07B0BCF8190DDB5500F6F2C9 /* MLCPiratesGamePlayer.h */,
+				07B0BCF9190DDB5500F6F2C9 /* MLCPiratesGamePlayer.m */,
 				07B0BCD8190DD1B000F6F2C9 /* Images.xcassets */,
 				07B0BCC7190DD1B000F6F2C9 /* Supporting Files */,
 			);
@@ -251,8 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B0BCD7190DD1B000F6F2C9 /* MLCPiratesGameViewController.m in Sources */,
+				07B0BCFA190DDB5500F6F2C9 /* MLCPiratesGamePlayer.m in Sources */,
 				07B0BCD1190DD1B000F6F2C9 /* MLCPiratesGameAppDelegate.m in Sources */,
+				07B0BCFD190DDBB600F6F2C9 /* MLCPiratesGameWeapon.m in Sources */,
 				07B0BCCD190DD1B000F6F2C9 /* main.m in Sources */,
+				07B0BD4B190FBADB00F6F2C9 /* MLCPiratesGameBoardFactory.m in Sources */,
+				07A24B74191ECA710056FBA0 /* MLCPiratesGamePlant.m in Sources */,
+				07B0BCF7190DD1C400F6F2C9 /* MLCPiratesGameTile.m in Sources */,
+				07B0BD00190DDBC600F6F2C9 /* MLCPiratesGameArmor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +493,7 @@
 				07B0BCF1190DD1B100F6F2C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07B0BCF2190DD1B100F6F2C9 /* Build configuration list for PBXNativeTarget "PiratesTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +502,7 @@
 				07B0BCF4190DD1B100F6F2C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
